@@ -1,36 +1,46 @@
+import Project from "./Project";
+
 const Portfolio = () => {
+  const projects = [
+    {
+      title: "Project 1",
+      deployedLink: "https://www.trustdnews.com",
+      githubLink: "https://github.com/vpontual",
+    },
+    {
+      title: "Project 2",
+      deployedLink: "https://www.trustdnews.com",
+      githubLink: "https://github.com/vpontual",
+    },
+    {
+      title: "Project 3",
+      deployedLink: "https://www.trustdnews.com",
+      githubLink: "https://github.com/vpontual",
+    },
+    {
+      title: "Project 3",
+      deployedLink: "https://www.trustdnews.com",
+      githubLink: "https://github.com/vpontual",
+    },
+    {
+      title: "Project 3",
+      deployedLink: "https://www.trustdnews.com",
+      githubLink: "https://github.com/vpontual",
+    },
+    {
+      title: "Project 3",
+      deployedLink: "https://www.trustdnews.com",
+      githubLink: "https://github.com/vpontual",
+    },
+  ];
+
   return (
     <section>
       <h2>Portfolio</h2>
       <div>
-        <img src=""></img>
-        <a href="https://www.trustdnews.com">Pontual Social</a>
-        <a href="https://github.com/vpontual">GitHub Repo</a>
-      </div>
-      <div>
-        <img src=""></img>
-        <a href="https://www.trustdnews.com">Arlington Food Shelf</a>
-        <a href="https://github.com/vpontual">GitHub Repo</a>
-      </div>
-      <div>
-        <img src=""></img>
-        <a href="https://www.trustdnews.com">Mastodon</a>
-        <a href="https://github.com/vpontual">GitHub Repo</a>
-      </div>
-      <div>
-        <img src=""></img>
-        <a href="https://www.trustdnews.com">Lemmy</a>
-        <a href="https://github.com/vpontual">GitHub Repo</a>
-      </div>
-      <div>
-        <img src=""></img>
-        <a href="https://www.trustdnews.com">KBin</a>
-        <a href="https://github.com/vpontual">GitHub Repo</a>
-      </div>
-      <div>
-        <img src=""></img>
-        <a href="https://www.trustdnews.com">TrustDNEWS</a>
-        <a href="https://github.com/vpontual">GitHub Repo</a>
+        {projects.map((project, index) => (
+          <Project key={index} project={project} />
+        ))}
       </div>
     </section>
   );
