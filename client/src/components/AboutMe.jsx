@@ -2,7 +2,11 @@ const AboutMe = () => {
   return (
     <section>
       <h2>About Me</h2>
-      <img src="./images/whome.jpg" alt="VP Photo" />
+      <img
+        src="./images/whome.jpg"
+        alt="VP Photo"
+        style={{ width: "200px", height: "auto" }}
+      />
       <p>Hello! Welcome to my about me section</p>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque iusto
