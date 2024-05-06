@@ -1,9 +1,9 @@
-import projectImage1 from "./assets/project1.jpg";
-import projectImage2 from "./assets/project2.jpg";
-import projectImage3 from "./assets/project3.jpg";
-import projectImage4 from "./assets/project4.jpg";
-import projectImage5 from "./assets/project5.jpg";
-import projectImage6 from "./assets/project6.jpg";
+import projectImage1 from "../images/project1.png";
+import projectImage2 from "../images/project2.png";
+import projectImage3 from "../images/project3.png";
+import projectImage4 from "../images/project4.png";
+import projectImage5 from "../images/project5.png";
+import projectImage6 from "../images/project6.png";
 
 const Project = ({ project }) => {
   const { title, deployedLink, githubLink } = project;
