@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
-import AboutMe from "./components/AboutMe";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
-import Resume from "./components/Resume";
-import Footer from "./components/Footer";
+import Header from "./components/Header/Header";
+import AboutMe from "./components/AboutMe/AboutMe";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Contact from "./components/Contact/Contact";
+import Resume from "./components/Resume/Resume";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 const App = () => {

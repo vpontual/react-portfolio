@@ -1,4 +1,4 @@
-:root {
+/* :root {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -49,3 +49,8 @@ button:focus-visible {
     background-color: #1e1e2e;
   }
 }
+
+.active {
+  font-weight: bold;
+  color: #333;
+} */
