@@ -1,13 +1,27 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="bg-dark text-white py-3">
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <a href="https://github.com/vpontual">GitHub</a>
+            <Link
+              to={{ pathname: "https://github.com/vpontual" }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </Link>
           </div>
           <div className="col-md-4">
-            <a href="https://linkedin.com/in/vitorpontual">LinkedIn</a>
+            <Link
+              to={{ pathname: "https://linkedin.com/in/vitorpontual" }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </Link>
           </div>
         </div>
       </div>

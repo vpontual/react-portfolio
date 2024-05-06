@@ -1,9 +1,11 @@
+import profileImage from "../images/whome.jpg";
+
 const AboutMe = () => {
   return (
-    <section>
+    <section className="aboutme">
       <h2>About Me</h2>
       <img
-        src="./images/whome.jpg"
+        src={profileImage}
         alt="VP Photo"
         style={{ width: "200px", height: "auto" }}
       />
