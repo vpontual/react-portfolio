@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Navigation from "./components/Navigation";
 import AboutMe from "./components/AboutMe";
@@ -9,35 +9,16 @@ import Footer from "./components/Footer";
 import "./App.css";
 
 const App = () => {
-  const [currentSection, setCurrentSection] = useState("AboutMe");
-
-  const renderSection = () => {
-    switch (currentSection) {
-      case "AboutMe":
-        return <AboutMe />;
-      case "Portfolio":
-        return <Portfolio />;
-      case "Contact":
-        return <Contact />;
-      case "Resume":
-        return <Resume />;
-      default:
-        return <AboutMe />;
-    }
-  };
-
-  const handleNavClick = (section) => {
-    setCurrentSection(section);
-  };
-
   return (
     <div>
       <Header />
-      <Navigation
-        currentSection={currentSection}
-        handleNavClick={handleNavClick}
-      />
-      {renderSection()}
+      <Navigation />
+      <Routes>
+        <Route path="/" element={<AboutMe />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
       <Footer />
     </div>
   );
