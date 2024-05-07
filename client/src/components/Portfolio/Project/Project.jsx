@@ -18,8 +18,8 @@ const Project = ({ project }) => {
   }[title];
 
   return (
-    <div className="col-md-4">
-      <div className="card">
+    <div className="col-12 col-md-6 col-lg-4">
+      <div className="card padding">
         {projectImage && (
           <img
             src={projectImage}
