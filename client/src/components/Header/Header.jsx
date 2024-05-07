@@ -1,8 +1,13 @@
 import Navigation from "../Navigation/Navigation";
 
 const Header = () => {
+  const headerStyle = {
+    backgroundColor: "#11111b",
+    padding: "1rem",
+  };
+
   return (
-    <header>
+    <header style={headerStyle}>
       <nav>
         <div className="container">
           <div className="row">
