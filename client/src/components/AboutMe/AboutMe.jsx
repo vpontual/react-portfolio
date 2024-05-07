@@ -2,7 +2,7 @@ import profileImage from "../../images/whome.jpg";
 
 const AboutMe = () => {
   return (
-    <section className="aboutme d-flex justify-content-center align-items-center min-vh-100">
+    <section className="aboutme d-flex py-5">
       <div className="container text-center">
         <div className="row">
           <div className="col-md-6">
