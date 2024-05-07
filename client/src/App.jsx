@@ -8,7 +8,7 @@ import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
-    <div>
+    <div className="d-flex flex-column min-vh-100">
       <Header />
       <Routes>
         <Route path="/" element={<AboutMe />} />

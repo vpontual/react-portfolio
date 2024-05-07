@@ -5,7 +5,7 @@ const Footer = () => {
   };
 
   return (
-    <footer style={footerStyle} className="text-center py-3">
+    <footer style={footerStyle} className="text-center py-3 mt-auto">
       <div className="container">
         <div className="row">
           <div className="col-md-4">
