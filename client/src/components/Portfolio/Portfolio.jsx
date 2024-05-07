@@ -4,18 +4,19 @@ const Portfolio = () => {
   const projects = [
     {
       title: "The Arlington Food Shelf",
-      deployedLink: "https://www.trustdnews.com",
-      githubLink: "https://github.com/vpontual",
+      deployedLink: "https://arlingtonfoodshelf.com",
+      githubLink:
+        "https://github.com/SuperRonanCraft/bootcamp-Arlington-Food-Shelf",
     },
     {
       title: "Pontual Social",
-      deployedLink: "https://www.trustdnews.com",
+      deployedLink: "https://pontualsocial.com",
       githubLink: "https://github.com/vpontual",
     },
     {
       title: "TimeSavor",
-      deployedLink: "https://www.trustdnews.com",
-      githubLink: "https://github.com/vpontual",
+      deployedLink: "https://lovertab.github.io/timesavor/",
+      githubLink: "https://github.com/Lovertab/timesavor",
     },
     {
       title: "TrustdNEWS",
@@ -24,13 +25,13 @@ const Portfolio = () => {
     },
     {
       title: "README Generator",
-      deployedLink: "https://www.trustdnews.com",
-      githubLink: "https://github.com/vpontual",
+      deployedLink: "https://github.com/vpontual/readme-generator",
+      githubLink: "https://github.com/vpontual/readme-generator",
     },
     {
       title: "The Tech Blog",
-      deployedLink: "https://www.trustdnews.com",
-      githubLink: "https://github.com/vpontual",
+      deployedLink: "https://tech-blog-o267.onrender.com/",
+      githubLink: "https://github.com/vpontual/tech-blog",
     },
   ];
 

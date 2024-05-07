@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 
+// The Navigation component should render a list of NavLink components.
 const Navigation = ({ navLinkStyle, activeNavLinkStyle }) => {
   return (
     <nav>

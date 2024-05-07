@@ -1,5 +1,6 @@
 import Navigation from "../Navigation/Navigation";
 
+// Setting inline styles for the header element
 const Header = () => {
   const headerStyle = {
     display: "flex",
@@ -8,12 +9,12 @@ const Header = () => {
     backgroundColor: "#11111b",
     padding: "1rem",
   };
-
+  // Setting inline styles for the h1 element
   const headingStyle = {
     margin: 0,
     fontSize: "2rem",
   };
-
+  // Setting inline styles for the nav links
   const navLinkStyle = {
     textDecoration: "none",
     color: "inherit",
@@ -21,12 +22,12 @@ const Header = () => {
     padding: "0.5rem 1rem",
     transition: "background-color 0.3s ease",
   };
-
+  // Setting inline styles for the active nav link
   const activeNavLinkStyle = {
     ...navLinkStyle,
     color: "#f9e2af",
   };
-
+  // Return the header element with the h1 element and the Navigation component
   return (
     <header style={headerStyle}>
       <h1 style={headingStyle}>Vitor Pontual</h1>

@@ -54,11 +54,11 @@ const Project = ({ project }) => {
             {title}
           </h3>
           <div className="mx-auto" style={{ marginTop: "auto" }}>
-            <a href={deployedLink} className="btn btn-primary mx-2">
+            <a href={deployedLink} className="btn btn-primary mx-3">
               Deployed App
             </a>
-            <a href={githubLink} className="btn btn-secondary mx-2">
-              GitHub Repository
+            <a href={githubLink} className="btn btn-secondary mx-3">
+              GitHub Repo
             </a>
           </div>
         </div>
