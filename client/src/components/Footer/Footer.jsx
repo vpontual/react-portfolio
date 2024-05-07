@@ -5,7 +5,7 @@ const Footer = () => {
   };
 
   const linkStyle = {
-    color: "inherit", // Inherit the text color from the parent
+    color: "inherit",
   };
 
   return (
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
           <div className="col-md-4">
             <a
-              href="https://linkedin.com/in/vitorpontual"
+              href="https://twitter.com/vitorpontual"
               className="text-decoration-none"
               style={linkStyle}
             >
