@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-const Navigation = () => {
+const Navigation = ({ navLinkStyle, activeNavLinkStyle }) => {
   return (
     <nav>
       <ul
@@ -16,7 +16,9 @@ const Navigation = () => {
           <NavLink
             to="/"
             end
-            className={({ isActive }) => (isActive ? "active" : "")}
+            style={({ isActive }) =>
+              isActive ? activeNavLinkStyle : navLinkStyle
+            }
           >
             About Me
           </NavLink>
@@ -24,7 +26,9 @@ const Navigation = () => {
         <li className="nav-item" style={{ marginRight: "1rem" }}>
           <NavLink
             to="/portfolio"
-            className={({ isActive }) => (isActive ? "active" : "")}
+            style={({ isActive }) =>
+              isActive ? activeNavLinkStyle : navLinkStyle
+            }
           >
             Portfolio
           </NavLink>
@@ -32,7 +36,9 @@ const Navigation = () => {
         <li className="nav-item" style={{ marginRight: "1rem" }}>
           <NavLink
             to="/contact"
-            className={({ isActive }) => (isActive ? "active" : "")}
+            style={({ isActive }) =>
+              isActive ? activeNavLinkStyle : navLinkStyle
+            }
           >
             Contact
           </NavLink>
@@ -40,7 +46,9 @@ const Navigation = () => {
         <li className="nav-item" style={{ marginRight: 0 }}>
           <NavLink
             to="/resume"
-            className={({ isActive }) => (isActive ? "active" : "")}
+            style={({ isActive }) =>
+              isActive ? activeNavLinkStyle : navLinkStyle
+            }
           >
             Resume
           </NavLink>
