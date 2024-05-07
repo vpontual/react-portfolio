@@ -6,9 +6,6 @@ import Contact from "./components/Contact/Contact";
 import Resume from "./components/Resume/Resume";
 import Footer from "./components/Footer/Footer";
 
-import "../styles/reset.css";
-import "../styles/global.css";
-
 const App = () => {
   return (
     <div>

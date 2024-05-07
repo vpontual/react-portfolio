@@ -1,4 +1,4 @@
-nav {
+/* nav {
   display: flex;
   unicode-bidi: normal;
   width: 100%;
@@ -30,9 +30,9 @@ nav {
   font-weight: bold;
   background-color: #f0f0f0;
   border-radius: 4px;
-}
+} */
 
-.active {
+/* .active {
   font-weight: bold;
-  color: #333;
-}
+  color: #dacb02;
+} */

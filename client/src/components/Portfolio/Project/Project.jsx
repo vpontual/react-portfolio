@@ -4,7 +4,6 @@ import projectImage3 from "../../../images/project3.png";
 import projectImage4 from "../../../images/project4.png";
 import projectImage5 from "../../../images/project5.png";
 import projectImage6 from "../../../images/project6.png";
-import "./Project.module.css";
 
 const Project = ({ project }) => {
   const { title, deployedLink, githubLink } = project;
