@@ -54,4 +54,4 @@ The following screenshot shows the user interface for the portfolio:
 
 The live portfolio can be found here:
 
-https://react-portfolio-mrgd.onrender.com
+https://663abf01a8fc518b11273e67--neon-piroshki-86ad87.netlify.app/
