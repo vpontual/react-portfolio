@@ -3,46 +3,46 @@ import Project from "./Project/Project";
 const Portfolio = () => {
   const projects = [
     {
-      title: "Project 1",
+      title: "The Arlington Food Shelf",
       deployedLink: "https://www.trustdnews.com",
       githubLink: "https://github.com/vpontual",
     },
     {
-      title: "Project 2",
+      title: "Pontual Social",
       deployedLink: "https://www.trustdnews.com",
       githubLink: "https://github.com/vpontual",
     },
     {
-      title: "Project 3",
+      title: "TimeSavor",
       deployedLink: "https://www.trustdnews.com",
       githubLink: "https://github.com/vpontual",
     },
     {
-      title: "Project 4",
+      title: "TrustdNEWS",
       deployedLink: "https://www.trustdnews.com",
       githubLink: "https://github.com/vpontual",
     },
     {
-      title: "Project 5",
+      title: "README Generator",
       deployedLink: "https://www.trustdnews.com",
       githubLink: "https://github.com/vpontual",
     },
     {
-      title: "Project 6",
+      title: "The Tech Blog",
       deployedLink: "https://www.trustdnews.com",
       githubLink: "https://github.com/vpontual",
     },
   ];
 
   return (
-    <section>
+    <div className="container">
       <h2>Portfolio</h2>
-      <div>
+      <div className="row">
         {projects.map((project, index) => (
           <Project key={index} project={project} />
         ))}
       </div>
-    </section>
+    </div>
   );
 };
 

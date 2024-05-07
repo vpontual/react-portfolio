@@ -9,12 +9,12 @@ import "./Project.module.css";
 const Project = ({ project }) => {
   const { title, deployedLink, githubLink } = project;
   const projectImage = {
-    "Project 1": projectImage1,
-    "Project 2": projectImage2,
-    "Project 3": projectImage3,
-    "Project 4": projectImage4,
-    "Project 5": projectImage5,
-    "Project 6": projectImage6,
+    "The Arlington Food Shelf": projectImage1,
+    "Pontual Social": projectImage2,
+    TimeSavor: projectImage3,
+    TrustdNEWS: projectImage4,
+    "README Generator": projectImage5,
+    "The Tech Blog": projectImage6,
   }[title];
 
   return (
