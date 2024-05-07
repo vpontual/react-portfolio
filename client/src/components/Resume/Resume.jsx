@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Resume = () => {
   return (
-    <div className="d-flex justify-content-center align-items-center min-vh-100">
+    <div className="d-flex justify-content-center align-items-center py-5">
       <div className="card" style={{ maxWidth: "400px" }}>
         <div className="card-body">
           <h2 className="card-title mb-4">Resume</h2>
