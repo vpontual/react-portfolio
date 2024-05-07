@@ -19,23 +19,49 @@ const Project = ({ project }) => {
 
   return (
     <div className="col-12 col-md-6 col-lg-4">
-      <div className="card padding">
+      <div
+        className="card padding"
+        style={{
+          height: "500px",
+          display: "flex",
+          flexDirection: "column",
+          borderRadius: "var(--bs-card-border-radius)",
+          padding: 0,
+          margin: "1rem",
+        }}
+      >
         {projectImage && (
           <img
             src={projectImage}
             alt={title}
             className="card-img-top"
-            style={{ width: "100%" }}
+            style={{
+              height: "400px",
+              objectFit: "cover",
+              width: "100%",
+            }}
           />
         )}
-        <div className="card-body">
-          <h3 className="card-title">{title}</h3>
-          <a href={deployedLink} className="btn btn-primary">
-            Deployed App
-          </a>
-          <a href={githubLink} className="btn btn-secondary">
-            GitHub Repository
-          </a>
+        <div
+          className="card-body"
+          style={{
+            flex: "1",
+            display: "flex",
+            flexDirection: "column",
+            padding: "var(--bs-card-spacer-y) var(--bs-card-spacer-x)",
+          }}
+        >
+          <h3 className="card-title text-center" style={{ marginTop: "0" }}>
+            {title}
+          </h3>
+          <div className="mx-auto" style={{ marginTop: "auto" }}>
+            <a href={deployedLink} className="btn btn-primary mx-2">
+              Deployed App
+            </a>
+            <a href={githubLink} className="btn btn-secondary mx-2">
+              GitHub Repository
+            </a>
+          </div>
         </div>
       </div>
     </div>
