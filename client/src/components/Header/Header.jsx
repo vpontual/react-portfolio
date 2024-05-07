@@ -5,8 +5,7 @@ const Header = () => {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    backgroundColor: "your-desired-color",
-    color: "your-text-color",
+    backgroundColor: "#11111b",
     padding: "1rem",
   };
 
@@ -25,8 +24,7 @@ const Header = () => {
 
   const activeNavLinkStyle = {
     ...navLinkStyle,
-    backgroundColor: "your-active-link-color",
-    color: "your-active-link-text-color",
+    color: "#f9e2af",
   };
 
   return (

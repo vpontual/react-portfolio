@@ -4,6 +4,10 @@ const Footer = () => {
     padding: "1rem",
   };
 
+  const linkStyle = {
+    color: "inherit", // Inherit the text color from the parent
+  };
+
   return (
     <footer style={footerStyle} className="text-center py-3 mt-auto">
       <div className="container">
@@ -12,6 +16,7 @@ const Footer = () => {
             <a
               href="https://github.com/vpontual"
               className="text-decoration-none"
+              style={linkStyle}
             >
               GitHub
             </a>
@@ -20,6 +25,7 @@ const Footer = () => {
             <a
               href="https://linkedin.com/in/vitorpontual"
               className="text-decoration-none"
+              style={linkStyle}
             >
               LinkedIn
             </a>
@@ -28,6 +34,7 @@ const Footer = () => {
             <a
               href="https://linkedin.com/in/vitorpontual"
               className="text-decoration-none"
+              style={linkStyle}
             >
               Twitter
             </a>
