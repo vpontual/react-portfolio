@@ -48,7 +48,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 The following screenshot shows the user interface for the portfolio:
 
-![screenshot of portfolio](./client/assets/screenshot.png)
+![screenshot of portfolio](./assets/screenshot.png)
 
 ## Live Website
 
