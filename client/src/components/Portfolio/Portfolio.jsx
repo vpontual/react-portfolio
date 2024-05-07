@@ -18,17 +18,17 @@ const Portfolio = () => {
       githubLink: "https://github.com/vpontual",
     },
     {
-      title: "Project 3",
+      title: "Project 4",
       deployedLink: "https://www.trustdnews.com",
       githubLink: "https://github.com/vpontual",
     },
     {
-      title: "Project 3",
+      title: "Project 5",
       deployedLink: "https://www.trustdnews.com",
       githubLink: "https://github.com/vpontual",
     },
     {
-      title: "Project 3",
+      title: "Project 6",
       deployedLink: "https://www.trustdnews.com",
       githubLink: "https://github.com/vpontual",
     },

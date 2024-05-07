@@ -1,12 +1,19 @@
-.nav-links {
+nav {
   display: flex;
-  list-style: none;
+  unicode-bidi: normal;
+  width: 100%;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
   padding: 0;
   margin: 0;
 }
 
 .nav-item {
-  margin-right: 20px;
+  margin-right: 1 rem;
 }
 
 .nav-item:last-child {
