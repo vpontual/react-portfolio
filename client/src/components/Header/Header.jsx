@@ -2,24 +2,40 @@ import Navigation from "../Navigation/Navigation";
 
 const Header = () => {
   const headerStyle = {
-    backgroundColor: "#11111b",
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    backgroundColor: "your-desired-color",
+    color: "your-text-color",
     padding: "1rem",
+  };
+
+  const headingStyle = {
+    margin: 0,
+    fontSize: "2rem",
+  };
+
+  const navLinkStyle = {
+    textDecoration: "none",
+    color: "inherit",
+    fontSize: "1.2rem",
+    padding: "0.5rem 1rem",
+    transition: "background-color 0.3s ease",
+  };
+
+  const activeNavLinkStyle = {
+    ...navLinkStyle,
+    backgroundColor: "your-active-link-color",
+    color: "your-active-link-text-color",
   };
 
   return (
     <header style={headerStyle}>
-      <nav>
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6">
-              <h1>Vitor Pontual</h1>
-            </div>
-            <div className="col-md-6">
-              <Navigation />
-            </div>
-          </div>
-        </div>
-      </nav>
+      <h1 style={headingStyle}>Vitor Pontual</h1>
+      <Navigation
+        navLinkStyle={navLinkStyle}
+        activeNavLinkStyle={activeNavLinkStyle}
+      />
     </header>
   );
 };
